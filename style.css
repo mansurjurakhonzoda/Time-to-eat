@@ -3,11 +3,15 @@
   margin: 0;
   font-family: "Commissioner", sans-serif;
 }
+body {
+  background-color: #faf6f2;
+}
 header {
   width: 100%;
   height: 60px;
   display: flex;
   align-items: center;
+  margin-bottom: 70px;
   justify-content: center;
   background-color: #a98c64;
 }
@@ -39,4 +43,55 @@ header div:nth-child(2) a {
 header div:nth-child(2) img {
   width: 14px;
   height: 16px;
+}
+section {
+  width: 100%;
+}
+.first_section {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.sslki {
+  width: 800px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sslki a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #493e3e;
+  text-decoration: none;
+}
+.contacts {
+  width: 210px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #4d8f76;
+  text-align: right;
+  text-decoration: underline;
+}
+.contacts p {
+  text-align: right;
+}
+.contacts p:nth-child(2) {
+  font-weight: 700;
+  font-size: 24px;
+  color: #493e3e;
+}
+.contacts p:nth-child(1) {
+  font-weight: 500;
+  font-size: 12px;
+  color: #756d6d;
 }
