@@ -202,7 +202,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 5%;
+  margin: auto;
   margin-top: 100px;
 }
 .three {
@@ -225,4 +225,157 @@ h1 {
   line-height: 100%;
   color: #493e3e;
   margin: 0;
+}
+.fives_section {
+  width: 85%;
+  margin: auto;
+  height: 150px;
+  margin-top: 100px;
+  border-radius: 30px;
+  background-color: #e2ddc0;
+  padding: 30px;
+}
+.fives_section p {
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.five {
+  width: 80%;
+  height: 67px;
+  display: flex;
+  align-items: self-end;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.gender {
+  width: 86px;
+  height: 67px;
+}
+.gender p {
+  font-weight: 500;
+  font-size: 12px;
+  color: #756d6d;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.choice {
+  width: 66px;
+  height: 28px;
+  border-radius: 60px;
+  background-color: #faf6f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.choice p:nth-child(1) {
+  width: 16px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+  border-radius: 50%;
+  padding: 9px 11px;
+  background-color: #dfccb7;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+.choice p:nth-child(2) {
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.veight {
+  width: 61px;
+  height: 20px;
+  padding: 14px 15px;
+  border-radius: 40px;
+  background-color: #faf6f2;
+}
+.veight p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+}
+.height {
+  width: 70px;
+  height: 20px;
+  padding: 14px 15px;
+  border-radius: 40px;
+  background-color: #faf6f2;
+}
+.height p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+}
+.age {
+  width: 100px;
+  height: 20px;
+  padding: 14px 15px;
+  border-radius: 40px;
+  background-color: #faf6f2;
+}
+.age p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+}
+.activity {
+  width: 151px;
+  height: 20px;
+  padding: 14px 15px;
+  border-radius: 40px;
+  background-color: #faf6f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.activity p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+}
+.activity svg {
+  width: 20px;
+  height: 20px;
+  color: #493e3e;
+  font-weight: 500;
+}
+.target {
+  width: 160px;
+  height: 22px;
+  padding: 14px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 40px;
+  background-color: #faf6f2;
+}
+.target p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+}
+.target svg {
+  width: 20px;
+  height: 20px;
+  color: #493e3e;
+  font-weight: 500;
+}
+.count {
+  width: 180px;
+  height: 30px;
+  padding: 9px 15px;
+  border-radius: 40px;
+  background-color: #4d8f76;
+}
+.count p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
 }
