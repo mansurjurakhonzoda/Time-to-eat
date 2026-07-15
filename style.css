@@ -178,9 +178,6 @@ h1 {
 .one {
   width: 756px;
   height: 241px;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
 }
 .one p {
   font-weight: 500;
@@ -193,6 +190,36 @@ h1 {
   height: 130px;
 }
 .two p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #493e3e;
+  margin: 0;
+}
+.fours_section {
+  width: 85%;
+  height: 293px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-top: 100px;
+}
+.three {
+  width: 770px;
+  height: 293px;
+}
+.three p {
+  font-weight: 500;
+  font-size: 48px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.four {
+  width: 100%;
+  height: 182px;
+}
+.four p {
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
