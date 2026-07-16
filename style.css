@@ -3,8 +3,15 @@
   margin: 0;
   font-family: "Commissioner", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #faf6f2;
+}
+.phone_link {
+  color: inherit;
+  text-decoration: none;
 }
 header {
   width: 100%;
@@ -387,6 +394,7 @@ h1 {
   margin: auto;
   margin-top: 100px;
   padding: 30px;
+  position: relative;
 }
 .head {
   width: 100%;
@@ -636,14 +644,14 @@ h1 {
   width: 256px;
   height: 256px;
 }
-#name {
+.name {
   font-weight: 500;
   font-size: 12px;
   color: #a98c64;
   margin-top: 0;
   margin-bottom: 20px;
 }
-#about {
+.about {
   font-weight: 500;
   font-size: 16px;
   color: #493e3e;
@@ -652,12 +660,9 @@ h1 {
 .end {
   width: 87.6%;
   height: 138px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-radius: 30px;
   background-color: #a2be95;
-  position: absolute;
-  right: 106px;
-  top: 3264px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -735,7 +740,7 @@ h1 {
   color: #493e3e;
   margin-bottom: 20px;
 }
-#sect {
+.sect {
   font-weight: 400;
   font-size: 16px;
   color: #493e3e;
