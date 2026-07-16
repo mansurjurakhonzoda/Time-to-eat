@@ -857,3 +857,86 @@ h1 {
   background-color: #4d8f76;
   border: none;
 }
+.tens_section {
+  width: 84%;
+  height: 360px;
+  margin: 100px auto 50px;
+  background-color: #a2be95;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.people {
+  width: 891px;
+  height: 356px;
+}
+.people p {
+  font-weight: 500;
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.people form {
+  width: 636px;
+  height: 116px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.people form input {
+  width: 278px;
+  height: 22px;
+  border-radius: 40px;
+  padding: 13px 15px;
+  background-color: #faf6f2;
+  font-weight: 500;
+  font-size: 16px;
+  color: #493e3e;
+  margin-right: 20px;
+  border: none;
+}
+.people form input:nth-child(2) {
+  margin: 0;
+}
+.people form button {
+  width: 308px;
+  height: 48px;
+  border-radius: 40px;
+  padding: 13px 15px;
+  text-align: center;
+  background-color: #4d8f76;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.image {
+  width: 416px;
+  height: 416px;
+  position: relative;
+}
+#women {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 180px;
+}
+.info {
+  width: 270px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+  top: 340px;
+  right: 700px;
+}
+.info p {
+  width: 200px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
