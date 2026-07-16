@@ -1072,3 +1072,13 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
+.fourteens_section {
+  width: 85%;
+  height: 20px;
+  margin: 30px auto;
+}
+.fours_section p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #493e3e;
+}
