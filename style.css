@@ -1043,3 +1043,32 @@ h1 {
   color: #ffffff;
   text-align: center;
 }
+.thirteenes_section {
+  width: 85%;
+  height: 60px;
+  margin: 100px auto 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.numbers {
+  width: 210px;
+  height: 60px;
+}
+.numbers p:nth-child(1) {
+  font-weight: 700;
+  font-size: 24px;
+  color: #493e3e;
+}
+.numbers p:nth-child(2) {
+  font-weight: 500;
+  font-size: 12px;
+  color: #756d6d;
+}
+.krugi {
+  width: 184px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
